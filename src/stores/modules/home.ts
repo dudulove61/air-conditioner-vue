@@ -1,10 +1,10 @@
 /*
  * @Description: 首页数据
- * @Author: 安知鱼
- * @Email: anzhiyu-c@qq.com
+ * @Author: Deebian
+ * @Email: mail@deebian.com
  * @Date: 2022-10-31 17:42:11
  * @LastEditTime: 2022-11-30 09:05:09
- * @LastEditors: 安知鱼
+ * @LastEditors: Deebian
  */
 import { defineStore } from "pinia";
 import Snackbar from "node-snackbar";
@@ -12,9 +12,9 @@ type AcMode = "clod" | "hot";
 const useHomeStore = defineStore("home", {
   state: () => ({
     authorInfo: {
-      author: "安知鱼",
+      author: "Deebian",
       link: "http://anzhiy.cn/",
-      title: "安知鱼 - 便携小空调",
+      title: "Deebian - 便携小空调",
     },
     // 空调温度
     temperature: 26,
